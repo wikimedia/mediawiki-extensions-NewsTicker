@@ -41,10 +41,6 @@
 		"localBasePath": "",
 		"remoteExtPath": "NewsTicker"
 	},
-	"config": {
-		"NewsTickerWidth": null,
-		"NewsTickerHeight": null
-	},
 	"Hooks": {
 		"BeforePageDisplay": "NewsTicker::onBeforePageDisplay",
 		"SkinAfterContent": "NewsTicker::onSkinAfterContent"
