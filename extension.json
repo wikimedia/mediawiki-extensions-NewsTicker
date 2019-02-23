@@ -21,6 +21,9 @@
 	"SpecialPages": {
 		"NewsTicker": "SpecialNewsTicker"
 	},
+	"ExtensionMessagesFiles": {
+		"NewsTickerAlias": "i18n/NewsTicker.i18n.alias.php"
+	},
 	"ResourceModules": {
 		"ext.NewsTicker.styles": {
 			"styles": "NewsTicker.css"

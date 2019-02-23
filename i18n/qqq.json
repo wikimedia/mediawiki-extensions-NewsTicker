@@ -6,6 +6,7 @@
 	},
 	"newsticker": "Title of the special page",
 	"newsticker-desc": "{{desc|name=NewsTicker|url=https://www.mediawiki.org/wiki/Extension:NewsTicker}}"
+    "newsticker-summary": "Description appearing on top of Special:NewsTicker"
 	"newsticker-general": "Title of the general settings section in the special page",
 	"newsticker-news": "Label for the input where news are set",
 	"newsticker-width": "Label for the input where the news ticker width is set",

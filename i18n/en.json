@@ -6,6 +6,7 @@
 	},
 	"newsticker": "NewsTicker",
 	"newsticker-desc": "Adds a special page to show a news ticker at the bottom of any desired page.",
+    "newsticker-summary": "Special page to set the content and pages of the news ticker",
 	"newsticker-general": "General",
 	"newsticker-news": "News",
 	"newsticker-width": "Width",
