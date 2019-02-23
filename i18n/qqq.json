@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"newsticker": "Title of the special page",
+	"newsticker-desc": "{{desc|name=NewsTicker|url=https://www.mediawiki.org/wiki/Extension:NewsTicker}}"
+	"newsticker-general": "Title of the general settings section in the special page",
+	"newsticker-news": "Label for the input where news are set",
+	"newsticker-width": "Label for the input where the news ticker width is set",
+	"newsticker-height": "Label for the input where the news ticker height is set",
+	"newsticker-pages": "Label for the input where the number of pages with the news ticker is set",
+	"newsticker-page1": "Title of the first page section in the special page",
+	"newsticker-page2": "Title of the second page section in the special page",
+	"newsticker-page3": "Title of the third page section in the special page",
+	"newsticker-page4": "Title of the fourth page section in the special page",
+	"newsticker-page5": "Title of the fifth page section in the special page",
+	"newsticker-page6": "Title of the sixth page section in the special page",
+	"newsticker-page7": "Title of the seventh page section in the special page",
+	"newsticker-page8": "Title of the eight page section in the special page",
+	"newsticker-page9": "Title of the ninth page section in the special page",
+	"newsticker-title": "Label for input where the title o the page is set",
+	"newsticker-add-page": "Label for the button for adding another page",
+	"newsticker-default-news-help": "Help text for the input where the default news are set",
+	"newsticker-default-width-help": "Help text for the input where the news ticker default width is set",
+	"newsticker-default-height-help": "Help text for the input where the news ticker default height is set",
+	"newsticker-pages-help": "Help text for the input where the number of pages with the news ticker is set",
+	"newsticker-title-help": "Help text for the input where the title of the page with the news ticker is set",
+	"newsticker-news-help": "Help text for the input where the news are set",
+	"newsticker-width-help": "Help text for the input where the news ticker width is set",
+	"newsticker-height-help": "Help text for the input where the news ticker height is set"
+}

@@ -1,0 +1,53 @@
+{
+	"name": "NewsTicker",
+	"version": "1.0",
+	"author": [
+		"[mailto:wiki@keyler-consult.de Martin Keyler]",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NewsTicker",
+	"descriptionmsg": "newsticker-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"NewsTicker": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NewsTicker": "NewsTicker.php",
+		"SpecialNewsTicker": "SpecialNewsTicker.php"
+	},
+	"SpecialPages": {
+		"NewsTicker": "SpecialNewsTicker"
+	},
+	"ResourceModules": {
+		"ext.NewsTicker.styles": {
+			"styles": "NewsTicker.css"
+		},
+		"ext.NewsTicker.scripts": {
+			"scripts": "NewsTicker.js"
+		}
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"newsticker": true
+		}
+	},
+	"AvailableRights": [
+		"newsticker"
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "NewsTicker"
+	},
+	"config": {
+		"NewsTickerWidth": null,
+		"NewsTickerHeight": null
+	},
+	"Hooks": {
+		"BeforePageDisplay": "NewsTicker::onBeforePageDisplay",
+		"SkinAfterContent": "NewsTicker::onSkinAfterContent"
+	},
+	"manifest_version": 1
+}
