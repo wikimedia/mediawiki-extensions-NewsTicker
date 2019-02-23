@@ -8,7 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:NewsTicker",
 	"descriptionmsg": "newsticker-desc",
 	"license-name": "GPL-3.0-or-later",
-	"type": "parserhook",
+	"type": "special",
 	"MessagesDirs": {
 		"NewsTicker": [
 			"i18n"
