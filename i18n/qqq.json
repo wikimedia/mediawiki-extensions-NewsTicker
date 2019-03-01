@@ -5,8 +5,8 @@
 		]
 	},
 	"newsticker": "Title of the special page",
-	"newsticker-desc": "{{desc|name=NewsTicker|url=https://www.mediawiki.org/wiki/Extension:NewsTicker}}"
-    "newsticker-summary": "Description appearing on top of Special:NewsTicker"
+	"newsticker-desc": "{{desc|name=NewsTicker|url=https://www.mediawiki.org/wiki/Extension:NewsTicker}}",
+	"newsticker-summary": "Description appearing on top of Special:NewsTicker",
 	"newsticker-general": "Title of the general settings section in the special page",
 	"newsticker-news": "Label for the input where news are set",
 	"newsticker-width": "Label for the input where the news ticker width is set",
@@ -30,5 +30,6 @@
 	"newsticker-title-help": "Help text for the input where the title of the page with the news ticker is set",
 	"newsticker-news-help": "Help text for the input where the news are set",
 	"newsticker-width-help": "Help text for the input where the news ticker width is set",
-	"newsticker-height-help": "Help text for the input where the news ticker height is set"
+	"newsticker-height-help": "Help text for the input where the news ticker height is set",
+	"right-newsticker": "{{doc-right|newsticker}}"
 }

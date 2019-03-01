@@ -6,7 +6,7 @@
 	},
 	"newsticker": "NewsTicker",
 	"newsticker-desc": "Adds a special page to show a news ticker at the bottom of any desired page.",
-    "newsticker-summary": "Special page to set the content and pages of the news ticker",
+	"newsticker-summary": "Special page to set the content and pages of the news ticker",
 	"newsticker-general": "General",
 	"newsticker-news": "News",
 	"newsticker-width": "Width",
@@ -30,5 +30,6 @@
 	"newsticker-title-help": "Set the title of the page were to show the news ticker. Can be any page, existing or not, even special pages.",
 	"newsticker-news-help": "Set the news for this particular news ticker, overriding the default news.",
 	"newsticker-width-help": "Set the width for this particular news ticker, overriding the default width.",
-	"newsticker-height-help": "Set the height for this particular news ticker, overriding the default height."
+	"newsticker-height-help": "Set the height for this particular news ticker, overriding the default height.",
+	"right-newsticker": "Manage news tickers"
 }
