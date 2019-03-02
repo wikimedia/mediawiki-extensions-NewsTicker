@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"newsticker": "Newsticker",
+	"newsticker-desc": "Ergänzt eine Spezialseite zur Anzeige eines Newstickers am Ende jeder gewünschten Seite.",
+	"newsticker-summary": "Auf dieser Spezialseite können der Inhalt und die Seiten des Newstickers festgelegt werden.",
+	"newsticker-general": "Allgemein",
+	"newsticker-news": "Nachrichten",
+	"newsticker-width": "Breite",
+	"newsticker-height": "Höhe",
+	"newsticker-pages": "Seiten",
+	"newsticker-page1": "Seite 1",
+	"newsticker-page2": "Seite 2",
+	"newsticker-page3": "Seite 3",
+	"newsticker-page4": "Seite 4",
+	"newsticker-page5": "Seite 5",
+	"newsticker-page6": "Seite 6",
+	"newsticker-page7": "Seite 7",
+	"newsticker-page8": "Seite 8",
+	"newsticker-page9": "Seite 9",
+	"newsticker-title": "Titel",
+	"newsticker-add-page": "Seite hinzufügen",
+	"newsticker-default-news-help": "Die Standardnachrichten des Newstickers festlegen. Eine pro Zeile. Wikitext ist erlaubt. Sie können auf Pro-Seite-Basis überschrieben werden (siehe unten).",
+	"newsticker-default-width-help": "Die Standardbreite des Newstickers festlegen. Sie kann auf Pro-Seite-Basis überschrieben werden (siehe unten).",
+	"newsticker-default-height-help": "Die Standardhöhe des Newstickers festlegen. Sie kann auf Pro-Seite-Basis überschrieben werden (siehe unten).",
+	"newsticker-pages-help": "Die Anzahl der Seiten festlegen, die den Newsticker anzeigen werden, so dass diese Spezialseite einen Abschnitt für jede Seite anzeigen kann. Achtung: Falls du die Anzahl der Seiten reduzierst, gehen die Daten für die ausgelassenen Seiten verloren!",
+	"newsticker-title-help": "Den Titel der Seite festlegen, auf der der Newsticker angezeigt wird. Kann eine beliebige Seite sein, existent oder nicht, auch Spezialseiten.",
+	"newsticker-news-help": "Die Nachrichten für diesen speziellen Newsticker festlegen, es werden die Standardnachrichten überschrieben.",
+	"newsticker-width-help": "Die Breite für diesen speziellen Newsticker festlegen, es wird die Standardbreite überschrieben.",
+	"newsticker-height-help": "Die Höhe für diesen speziellen Newsticker festlegen, es wird die Standardhöhe überschrieben.",
+	"right-newsticker": "Newsticker verwalten"
+}

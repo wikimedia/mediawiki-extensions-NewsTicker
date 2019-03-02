@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"newsticker-width": "寬度",
+	"newsticker-height": "高度",
+	"newsticker-pages": "頁面",
+	"newsticker-page1": "第 1 頁",
+	"newsticker-page2": "第 2 頁",
+	"newsticker-page3": "第 3 頁",
+	"newsticker-page4": "第 4 頁",
+	"newsticker-page5": "第 5 頁",
+	"newsticker-page6": "第 6 頁",
+	"newsticker-page7": "第 7 頁",
+	"newsticker-page8": "第 8 頁",
+	"newsticker-page9": "第 9 頁",
+	"newsticker-title": "標題"
+}
