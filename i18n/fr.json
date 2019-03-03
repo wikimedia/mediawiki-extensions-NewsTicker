@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"newsticker-general": "Général",
+	"newsticker-news": "Actualités",
+	"newsticker-width": "Largeur",
+	"newsticker-height": "Hauteur",
+	"newsticker-pages": "Pages",
+	"newsticker-page1": "Page 1",
+	"newsticker-page2": "Page 2",
+	"newsticker-page3": "Page 3",
+	"newsticker-page4": "Page 4",
+	"newsticker-page5": "Page 5",
+	"newsticker-page6": "Page 6",
+	"newsticker-page7": "Page 7",
+	"newsticker-page8": "Page 8",
+	"newsticker-page9": "Page 9",
+	"newsticker-title": "Titre",
+	"newsticker-add-page": "Ajouter une page",
+	"right-newsticker": "Gérer des tickets d'actualités"
+}
