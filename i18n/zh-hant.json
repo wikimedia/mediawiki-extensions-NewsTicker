@@ -4,6 +4,9 @@
 			"Kly"
 		]
 	},
+	"newsticker": "NewsTicker",
+	"newsticker-general": "一般",
+	"newsticker-news": "新聞",
 	"newsticker-width": "寬度",
 	"newsticker-height": "高度",
 	"newsticker-pages": "頁面",
@@ -16,5 +19,6 @@
 	"newsticker-page7": "第 7 頁",
 	"newsticker-page8": "第 8 頁",
 	"newsticker-page9": "第 9 頁",
-	"newsticker-title": "標題"
+	"newsticker-title": "標題",
+	"newsticker-add-page": "新增頁面"
 }

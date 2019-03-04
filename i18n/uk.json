@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"newsticker": "Стрічка новин",
+	"newsticker-desc": "Додає спеціальну сторінку для відображення стрічки новин у нижній частині будь-якої сторінки.",
+	"newsticker-summary": "Спеціальна сторінка для встановлення вмісту і сторінки на стрічці новин",
+	"newsticker-general": "Загальне",
+	"newsticker-news": "Новини",
+	"newsticker-width": "Ширина",
+	"newsticker-height": "Висота",
+	"newsticker-pages": "Сторінки",
+	"newsticker-page1": "Сторінка 1",
+	"newsticker-page2": "Сторінка 2",
+	"newsticker-page3": "Сторінка 3",
+	"newsticker-page4": "Сторінка 4",
+	"newsticker-page5": "Сторінка 5",
+	"newsticker-page6": "Сторінка 6",
+	"newsticker-page7": "Сторінка 7",
+	"newsticker-page8": "Сторінка 8",
+	"newsticker-page9": "Сторінка 9",
+	"newsticker-title": "Назва",
+	"newsticker-add-page": "Додати сторінку",
+	"right-newsticker": "керування стрічками новин"
+}
