@@ -5,6 +5,8 @@
 		]
 	},
 	"newsticker": "NewsTicker",
+	"newsticker-desc": "添加特殊頁面來在任何所需頁面的底端顯示出新聞跑馬燈。",
+	"newsticker-summary": "設定新聞跑馬燈頁面與內容的特殊頁面。",
 	"newsticker-general": "一般",
 	"newsticker-news": "新聞",
 	"newsticker-width": "寬度",
@@ -20,5 +22,10 @@
 	"newsticker-page8": "第 8 頁",
 	"newsticker-page9": "第 9 頁",
 	"newsticker-title": "標題",
-	"newsticker-add-page": "新增頁面"
+	"newsticker-add-page": "新增頁面",
+	"newsticker-title-help": "設定顯示新聞跑馬燈的頁面標題。可以是存在、不存在、甚至為特殊頁面的任何頁面。",
+	"newsticker-news-help": "設定此特定新聞跑馬燈的新聞（預設新聞會覆蓋掉）。",
+	"newsticker-width-help": "設定此特定新聞跑馬燈的寬度（預設寬度會覆蓋掉）。",
+	"newsticker-height-help": "設定此特定新聞跑馬燈的高度（預設高度會覆蓋掉）。",
+	"right-newsticker": "管理新聞跑馬燈"
 }
