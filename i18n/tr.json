@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"newsticker": "HaberAkışı",
+	"newsticker-desc": "İstediğiniz sayfanın en altında bir haber akışı eklemek için özel bir sayfa oluşturur.",
+	"newsticker-summary": "Haber akışı içeriğini ve sayfalarını ayarlamak için özel sayfa",
+	"newsticker-general": "Genel",
+	"newsticker-news": "Haberler",
+	"newsticker-width": "Genişlik",
+	"newsticker-height": "Yükseklik",
+	"newsticker-pages": "Sayfalar",
+	"newsticker-page1": "1. sayfa",
+	"newsticker-page2": "2. sayfa",
+	"newsticker-page3": "3. sayfa",
+	"newsticker-page4": "4. sayfa",
+	"newsticker-page5": "5. sayfa",
+	"newsticker-page6": "6. sayfa",
+	"newsticker-page7": "7. sayfa",
+	"newsticker-page8": "8. sayfa",
+	"newsticker-page9": "9. sayfa",
+	"newsticker-title": "Başlık",
+	"newsticker-add-page": "Sayfa ekle",
+	"right-newsticker": "Haber akışını yönet"
+}
