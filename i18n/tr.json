@@ -23,5 +23,13 @@
 	"newsticker-page9": "9. sayfa",
 	"newsticker-title": "Başlık",
 	"newsticker-add-page": "Sayfa ekle",
+	"newsticker-default-news-help": "Haber akışının varsayılan haberini ayarlayın, her satıra bir tane ekleyin, wiki metin kullanabilirsiniz. Sayfa bazında geçersiz kılınır (aşağıya bakınız).",
+	"newsticker-default-width-help": "Haber akışının varsayılan genişliğini ayarlayın. Sayfa başına esasına göre geçersiz kılınabilir (aşağıya bakınız).",
+	"newsticker-default-height-help": "Haber akışının varsayılan yüksekliğini ayarlayın. Sayfa başına esasına göre geçersiz kılınabilir (aşağıya bakınız).",
+	"newsticker-pages-help": "Haber akışını gösterecek sayfa sayısını ayarlayın, böylece bu özel sayfa her sayfa için bir bölüm gösterebilir. Dikkat: Sayfa sayısını azaltırsanız dışarıda bırakılan sayfaların verileri kaybolur!",
+	"newsticker-title-help": "Haber akışını gösterecek sayfanın başlığını ayarlayın. Herhangi bir sayfa, geçerli ya da geçersiz, hatta özel sayfa da olabilir.",
+	"newsticker-news-help": "Bu özel haber akışı için varsayılan haberleri geçersiz kılarak haberleri ayarların",
+	"newsticker-width-help": "Bu özel haber akışı için varsayılan genşliği geçersiz kılarak genişliği ayarların",
+	"newsticker-height-help": "Bu özel haber akışı için varsayılan yüksekliği geçersiz kılarak yüksekliği ayarların",
 	"right-newsticker": "Haber akışını yönet"
 }
