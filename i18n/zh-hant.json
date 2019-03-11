@@ -9,8 +9,6 @@
 	"newsticker-summary": "設定新聞跑馬燈頁面與內容的特殊頁面。",
 	"newsticker-general": "一般",
 	"newsticker-news": "新聞",
-	"newsticker-width": "寬度",
-	"newsticker-height": "高度",
 	"newsticker-pages": "頁面",
 	"newsticker-page1": "第 1 頁",
 	"newsticker-page2": "第 2 頁",
@@ -24,12 +22,8 @@
 	"newsticker-title": "標題",
 	"newsticker-add-page": "新增頁面",
 	"newsticker-default-news-help": "設定新聞跑馬燈的預設新聞，一行一個、可使用 wiki 文字。這些可在每頁的主要部份上覆蓋（參見下方）。",
-	"newsticker-default-width-help": "設定新聞跑馬燈的預設寬度。這些可在每頁的主要部份上覆蓋（參見下方）。",
-	"newsticker-default-height-help": "設定新聞跑馬燈的預設高度。這些可在每頁的主要部份上覆蓋（參見下方）。",
 	"newsticker-pages-help": "設定會顯示新聞跑馬燈的頁面數，這樣此特殊頁面便可顯示各頁面的一個段落。注意：如果您減少頁面數，遺留的頁面資料將會不見！",
 	"newsticker-title-help": "設定顯示新聞跑馬燈的頁面標題。可以是存在、不存在、甚至為特殊頁面的任何頁面。",
 	"newsticker-news-help": "設定此特定新聞跑馬燈的新聞（預設新聞會覆蓋掉）。",
-	"newsticker-width-help": "設定此特定新聞跑馬燈的寬度（預設寬度會覆蓋掉）。",
-	"newsticker-height-help": "設定此特定新聞跑馬燈的高度（預設高度會覆蓋掉）。",
 	"right-newsticker": "管理新聞跑馬燈"
 }

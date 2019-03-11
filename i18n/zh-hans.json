@@ -7,7 +7,6 @@
 	"newsticker-summary": "设置新闻跑马灯的内容及页面的默认页面。",
 	"newsticker-general": "常规",
 	"newsticker-news": "新闻",
-	"newsticker-width": "宽",
 	"newsticker-pages": "页面",
 	"newsticker-page1": "第一页",
 	"newsticker-page2": "第二页",
@@ -15,8 +14,5 @@
 	"newsticker-page4": "第四页",
 	"newsticker-page8": "第八页",
 	"newsticker-page9": "第九页",
-	"newsticker-default-news-help": "设置为新闻跑马灯的默认新闻，一行一条，支持维基文本。每页的默认新闻均可被覆盖（参见下方）。",
-	"newsticker-default-width-help": "设置新闻跑马灯的默认宽度。每页的默认新闻均可被覆盖（参见下方）。",
-	"newsticker-default-height-help": "设置新闻跑马灯的默认高度。每页的默认新闻均可被覆盖（参见下方）。",
-	"newsticker-width-help": "设置特定新闻跑马灯的宽度，这将覆盖默认宽度。"
+	"newsticker-default-news-help": "设置为新闻跑马灯的默认新闻，一行一条，支持维基文本。每页的默认新闻均可被覆盖（参见下方）。"
 }
