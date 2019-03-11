@@ -26,8 +26,8 @@ class NewsTicker {
 		// Merge the default values with the data
 		$defaults = [
 			'news' => [],
-			'width' => '',
-			'height' => '',
+			'class' => '',
+			'style' => '',
 		];
 		$newsData = array_merge( $defaults, $newsData );
 
@@ -41,12 +41,13 @@ class NewsTicker {
 			if ( $title and $title === $thisText ) {
 
 				$news = $newsData["news$i"] ?? $newsData['news'];
-				$width = $newsData["width$i"] ?? $newsData['width'];
-				$heigth = $newsData["height$i"] ?? $newsData['height'];
+				$class = $newsData["class$i"] ?? $newsData['class'];
+				$style = $newsData["style$i"] ?? $newsData['style'];
 
 				$data = Html::openElement( 'div', [
 					'id' => 'news-ticker',
-					'style' => "width: $width; height: $heigth;"
+					'class' => $class,
+					'style' => $style
 				]);
 
 				// Prepare the parser

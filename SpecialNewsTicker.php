@@ -12,8 +12,8 @@ class SpecialNewsTicker extends FormSpecialPage {
 	 */
 	static $defaults = [
 		'news' => [],
-		'width' => '',
-		'height' => '',
+		'class' => '',
+		'style' => '',
 		'pages' => 1
 	];
 
@@ -68,21 +68,21 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'default' => implode( "\n", $this->getOption( 'news' ) ),
 				//'placeholder' => implode( "\n", $this->getOption( 'news' ) ),
 			],
-			'width' => [
+			'class' => [
 				'section' => 'general',
 				'class' => 'HTMLTextField',
-				'label' => wfMessage( 'newsticker-width' ),
-				'help' => wfMessage( 'newsticker-default-width-help' )->text(),
-				'default' => $this->getOption( 'width' ),
-				//'placeholder' => $this->getOption( 'width' ),
+				'label' => wfMessage( 'newsticker-class' ),
+				'help' => wfMessage( 'newsticker-default-class-help' )->text(),
+				'default' => $this->getOption( 'class' ),
+				//'placeholder' => $this->getOption( 'class' ),
 			],
-			'height' => [
+			'style' => [
 				'section' => 'general',
 				'class' => 'HTMLTextField',
-				'label' => wfMessage( 'newsticker-height' ),
-				'help' => wfMessage( 'newsticker-default-height-help' )->text(),
-				'default' => $this->getOption( 'height' ),
-				//'placeholder' => $this->getOption( 'height' ),
+				'label' => wfMessage( 'newsticker-style' ),
+				'help' => wfMessage( 'newsticker-default-style-help' )->text(),
+				'default' => $this->getOption( 'style' ),
+				//'placeholder' => $this->getOption( 'style' ),
 			],
 			'pages' => [
 				'section' => 'general',
@@ -112,21 +112,21 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'default' => implode( "\n", $this->getOption( "news$i", [] ) ),
 				'placeholder' => implode( "\n", $this->getOption( "news" ) ),
 			];
-			$fields[ "width$i" ] = [
+			$fields[ "class$i" ] = [
 				'section' => "page$i",
 				'class' => 'HTMLTextField',
-				'label' => wfMessage( 'newsticker-width' ),
-				'help' => wfMessage( 'newsticker-width-help' )->text(),
-				'default' => $this->getOption( "width$i" ),
-				'placeholder' => $this->getOption( 'width' ),
+				'label' => wfMessage( 'newsticker-class' ),
+				'help' => wfMessage( 'newsticker-class-help' )->text(),
+				'default' => $this->getOption( "class$i" ),
+				'placeholder' => $this->getOption( 'class' ),
 			];
-			$fields[ "height$i" ] = [
+			$fields[ "style$i" ] = [
 				'section' => "page$i",
 				'class' => 'HTMLTextField',
-				'label' => wfMessage( 'newsticker-height' ),
-				'help' => wfMessage( 'newsticker-height-help' )->text(),
-				'default' => $this->getOption( "height$i" ),
-				'placeholder' => $this->getOption( 'height' ),
+				'label' => wfMessage( 'newsticker-style' ),
+				'help' => wfMessage( 'newsticker-style-help' )->text(),
+				'default' => $this->getOption( "style$i" ),
+				'placeholder' => $this->getOption( 'style' ),
 			];
 		}
 		return $fields;

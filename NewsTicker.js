@@ -1,4 +1,5 @@
 ( function ( $, mw ) {
+
 	var NewsTicker = {
 
 		init: function () {
@@ -17,4 +18,5 @@
 	};
 
 	$( NewsTicker.init );
+
 }( jQuery, mediaWiki ) );
