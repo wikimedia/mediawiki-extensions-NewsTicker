@@ -1,4 +1,4 @@
-#news-ticker {
+.news-ticker {
 	border: 1px solid #ccc;
 	display: table-cell;
 	overflow: hidden;
@@ -6,10 +6,10 @@
 	vertical-align: middle;
 }
 
-#news-ticker .news {
+.news-ticker .news {
 	display: none;
 }
 
-#news-ticker .initial {
+.news-ticker .initial {
 	display: block;
 }

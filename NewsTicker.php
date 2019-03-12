@@ -53,8 +53,7 @@ class NewsTicker {
 				$style = $newsData["style$i"] ?? $newsData['style'];
 
 				$return .= Html::openElement( 'div', [
-					'id' => 'news-ticker',
-					'class' => $class,
+					'class' => "news-ticker $class",
 					'style' => $style
 				]);
 
