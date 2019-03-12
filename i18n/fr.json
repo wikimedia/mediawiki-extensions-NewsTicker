@@ -10,6 +10,8 @@
 	"newsticker-summary": "Page spéciale pour fixer le contenu et les pages du bandeau de nouvelles",
 	"newsticker-general": "Général",
 	"newsticker-news": "Actualités",
+	"newsticker-class": "Classe",
+	"newsticker-style": "Style",
 	"newsticker-pages": "Pages",
 	"newsticker-page1": "Page 1",
 	"newsticker-page2": "Page 2",
@@ -22,9 +24,14 @@
 	"newsticker-page9": "Page 9",
 	"newsticker-title": "Titre",
 	"newsticker-add-page": "Ajouter une page",
-	"newsticker-default-news-help": "Fixer les nouvelles par défaut du bandeau de nouvelles, une par ligne, le wikitexte étant autorisé. Elles peuvent être écrasées page par page (voir ci-dessous).",
-	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention : Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
-	"newsticker-title-help": "Fixer le titre de la page où afficher le bandeau de nouvelles. Ce peut être n’importe quelle page, existant ou non, même des pages spéciales.",
-	"newsticker-news-help": "Fixer les nouvelles pour ce bandeau particulier, écrasant les nouvelles par défaut.",
-	"right-newsticker": "Gérer des tickets d'actualités"
+	"newsticker-default-news-help": "Fixer les nouvelles par défaut pour tous les bandeaux de nouvelles. Une nouvelle par ligne, le wikitexte étant autorisé.",
+	"newsticker-default-class-help": "Définir les classes CSS par défaut pour tous les bandeaux de nouvelles.",
+	"newsticker-default-style-help": "Définir le style CSS par défaut pour tous les bandeaux de nouvelles.",
+	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention ! Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
+	"newsticker-title-help": "Fixer le titre de la page où afficher ce bandeau de nouvelles. Ce peut être n’importe quelle page, existant ou non, même des pages spéciales.",
+	"newsticker-news-help": "Fixer les nouvelles pour ce bandeau de nouvelles, écrasant les nouvelles par défaut.",
+	"newsticker-class-help": "Définir les classes CSS pour ce bandeau de nouvelles, écrasant les classes CSS par défaut.",
+	"newsticker-style-help": "Définir le style CSS pour ce bandeau de nouvelles, écrasant le style CSS par défaut.",
+	"right-newsticker": "Gérer des tickets d'actualités",
+	"action-newsticker": "gérer les bandeaux de nouvelles"
 }
