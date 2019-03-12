@@ -1,6 +1,6 @@
 {
 	"name": "NewsTicker",
-	"version": "1.1",
+	"version": "1.2",
 	"author": [
 		"[mailto:wiki@keyler-consult.de Martin Keyler]",
 		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
@@ -22,7 +22,8 @@
 		"NewsTicker": "SpecialNewsTicker"
 	},
 	"ExtensionMessagesFiles": {
-		"NewsTickerAlias": "i18n/NewsTicker.i18n.alias.php"
+		"NewsTickerAlias": "i18n/NewsTicker.alias.php",
+		"NewsTickerMagic": "i18n/NewsTicker.magic.php"
 	},
 	"ResourceModules": {
 		"ext.NewsTicker.styles": {
@@ -46,7 +47,8 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": "NewsTicker::onBeforePageDisplay",
-		"SkinAfterContent": "NewsTicker::onSkinAfterContent"
+		"MagicWordwgVariableIDs": "NewsTicker::onMagicWordwgVariableIDs",
+		"ParserGetVariableValueSwitch": "NewsTicker::onParserGetVariableValueSwitch"
 	},
 	"manifest_version": 1
 }

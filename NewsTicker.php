@@ -7,14 +7,22 @@ class NewsTicker {
 	 */
 	static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
 		$out->addModuleStyles( 'ext.NewsTicker.styles' );
-		$out->addModuleScripts( 'ext.NewsTicker.scripts' );
+		$out->addModules( 'ext.NewsTicker.scripts' );
+	}
+
+	/**
+	 * Register NEWSTICKER as a variable
+	 */
+	public static function onMagicWordwgVariableIDs( &$customVariableIds ) {
+		$customVariableIds[] = 'NEWSTICKER';
+		return true;
 	}
 
 	/**
 	 * Render the news ticker itself
 	 */
-	static function onSkinAfterContent( &$data, $skin )  {
-		// Get all the data
+	static function onParserGetVariableValueSwitch( Parser $parser, &$cache, &$magicWordId, &$return, &$frame )  {
+		// Get all the relevant data
 		$newsData = [];
 		$newsTitle = Title::newFromText( "News.json", NS_MEDIAWIKI );
 		$newsPage = new WikiPage( $newsTitle );
@@ -33,7 +41,7 @@ class NewsTicker {
 
 		// Get the news for this page
 		$pages = $newsData['pages'] ?? 0;
-		$thisTitle = $skin->getTitle();
+		$thisTitle = $parser->getTitle();
 		$thisText = $thisTitle->getFullText();
 		for ( $i = 0; $i <= $pages; $i++ ) {
 
@@ -44,7 +52,7 @@ class NewsTicker {
 				$class = $newsData["class$i"] ?? $newsData['class'];
 				$style = $newsData["style$i"] ?? $newsData['style'];
 
-				$data = Html::openElement( 'div', [
+				$return .= Html::openElement( 'div', [
 					'id' => 'news-ticker',
 					'class' => $class,
 					'style' => $style
@@ -60,11 +68,12 @@ class NewsTicker {
 					$class = $current === $i ? 'news initial current' : 'news';
 					$parserOutput = $parser->parse( $value, $thisTitle, $parserOptions );
 					$value = $parserOutput->getText();
-					$data .= Html::rawElement( 'div', [ 'class' => $class ], $value );
+					$return .= Html::rawElement( 'div', [ 'class' => $class ], $value );
 				}
 
-				$data .= Html::closeElement( 'div' );
+				$return .= Html::closeElement( 'div' );
 			}
 		}
+		return true;
 	}
 }
