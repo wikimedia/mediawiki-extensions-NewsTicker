@@ -10,8 +10,6 @@
 	"newsticker-summary": "Page spéciale pour fixer le contenu et les pages du bandeau de nouvelles",
 	"newsticker-general": "Général",
 	"newsticker-news": "Actualités",
-	"newsticker-width": "Largeur",
-	"newsticker-height": "Hauteur",
 	"newsticker-pages": "Pages",
 	"newsticker-page1": "Page 1",
 	"newsticker-page2": "Page 2",
@@ -25,12 +23,8 @@
 	"newsticker-title": "Titre",
 	"newsticker-add-page": "Ajouter une page",
 	"newsticker-default-news-help": "Fixer les nouvelles par défaut du bandeau de nouvelles, une par ligne, le wikitexte étant autorisé. Elles peuvent être écrasées page par page (voir ci-dessous).",
-	"newsticker-default-width-help": "Fixer la largeur par défaut du bandeau de nouvelles. Elle peut être écrasée page par page (voir ci-dessous).",
-	"newsticker-default-height-help": "Fixer la hauteur par défaut du bandeau de nouvelles. Elle peut être écrasée page par page (voir ci-dessous).",
 	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention : Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
 	"newsticker-title-help": "Fixer le titre de la page où afficher le bandeau de nouvelles. Ce peut être n’importe quelle page, existant ou non, même des pages spéciales.",
 	"newsticker-news-help": "Fixer les nouvelles pour ce bandeau particulier, écrasant les nouvelles par défaut.",
-	"newsticker-width-help": "Fixer la largeur pour ce bandeau de nouvelles particulier, écrasant la largeur par défaut.",
-	"newsticker-height-help": "Fixer la hauteur pour ce bandeau de nouvelles particulier, écrasant la hauteur par défaut.",
 	"right-newsticker": "Gérer des tickets d'actualités"
 }
