@@ -5,7 +5,7 @@
 		]
 	},
 	"newsticker": "NewsTicker",
-	"newsticker-desc": "Adiciona uma página especial para mostrar um marcador de notícias na parte inferior de qualquer página desejada.",
+	"newsticker-desc": "Adiciona uma palavra mágica que mostra um marcador de notícias que pode ser configurado a partir de uma página especial.",
 	"newsticker-summary": "Página especial para definir o conteúdo e as páginas do marcador de notícias",
 	"newsticker-general": "Geral",
 	"newsticker-news": "Notícias",
@@ -27,7 +27,7 @@
 	"newsticker-default-class-help": "Defina as classes CSS padrão para todos os marcadores de notícias.",
 	"newsticker-default-style-help": "Defina o estilo CSS padrão para todos os marcadores de notícias.",
 	"newsticker-pages-help": "Defina o número de páginas que mostrarão o marcador de notícias, para que essa página especial mostre uma seção para cada página. Cuidado! Se você reduzir o número de páginas, os dados das páginas deixadas de fora serão perdidos!",
-	"newsticker-title-help": "Definir o título da página foram para mostrar este marcador de notícias. Pode ser qualquer página, existente ou não, mesmo páginas especiais.",
+	"newsticker-title-help": "Definir o título da página foram para mostrar este marcador de notícias.",
 	"newsticker-news-help": "Defina as notícias para este marcador de notícias, substituindo as notícias padrão.",
 	"newsticker-class-help": "Defina as classes CSS para este marcador de notícias, substituindo as classes CSS padrão.",
 	"newsticker-style-help": "Defina o estilo CSS para este marcador de notícias, substituindo o estilo CSS padrão.",
