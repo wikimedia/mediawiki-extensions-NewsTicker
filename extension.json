@@ -30,10 +30,7 @@
 			"styles": "NewsTicker.css"
 		},
 		"ext.NewsTicker.scripts": {
-			"scripts": "NewsTicker.js",
-			"dependencies": [
-				"ext.wikiEditor"
-			]
+			"scripts": "NewsTicker.js"
 		}
 	},
 	"GroupPermissions": {
