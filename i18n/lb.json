@@ -7,6 +7,7 @@
 	"newsticker": "Newsticker",
 	"newsticker-general": "Allgemeng",
 	"newsticker-news": "Neiegkeeten",
+	"newsticker-class": "Klass",
 	"newsticker-pages": "Säiten",
 	"newsticker-page1": "Säit 1",
 	"newsticker-page2": "Säit 2",
@@ -18,5 +19,6 @@
 	"newsticker-page8": "Säit 8",
 	"newsticker-page9": "Säit 9",
 	"newsticker-title": "Titel",
-	"newsticker-add-page": "Säit dobäisetzen"
+	"newsticker-add-page": "Säit dobäisetzen",
+	"newsticker-class-help": "Definéiert d'CSS Klasse fir dësen Newsticker, déi d'$Stnard CSS-Klassen iwwerschreiwen."
 }

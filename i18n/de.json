@@ -29,6 +29,7 @@
 	"newsticker-pages-help": "Die Anzahl der Seiten festlegen, die den Newsticker anzeigen werden, so dass diese Spezialseite einen Abschnitt für jede Seite anzeigen kann. Achtung! Falls du die Anzahl der Seiten reduzierst, gehen die Daten der ausgelassenen Seiten verloren!",
 	"newsticker-title-help": "Den Titel der Seite festlegen, auf der dieser Newsticker angezeigt wird. Kann eine beliebige Seite sein, existent oder nicht, auch Spezialseiten.",
 	"newsticker-news-help": "Die Nachrichten für diesen Newsticker festlegen, es werden die Standardnachrichten überschrieben.",
+	"newsticker-class-help": "Die CSS-Klassen für diesen Newsticker festlegen, die Standard-CSS-Klassen werden überschrieben.",
 	"newsticker-style-help": "Den CSS-Stil für diesen Newsticker festlegen, der Standard-CSS-Stil wird überschrieben.",
 	"right-newsticker": "Newsticker verwalten",
 	"action-newsticker": "Newsticker zu verwalten"
