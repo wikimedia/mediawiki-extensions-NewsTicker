@@ -53,6 +53,10 @@ class NewsTicker {
 				$style = $newsData["style$i"] ?? $newsData['style'];
 
 				$return .= Html::openElement( 'div', [
+					'class' => "news-ticker-wrapper",
+				]);
+
+				$return .= Html::openElement( 'div', [
 					'class' => "news-ticker $class",
 					'style' => $style
 				]);
@@ -70,6 +74,7 @@ class NewsTicker {
 					$return .= Html::rawElement( 'div', [ 'class' => $class ], $value );
 				}
 
+				$return .= Html::closeElement( 'div' );
 				$return .= Html::closeElement( 'div' );
 			}
 		}
