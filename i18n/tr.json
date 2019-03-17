@@ -5,7 +5,7 @@
 		]
 	},
 	"newsticker": "HaberAkışı",
-	"newsticker-desc": "İstediğiniz sayfanın en altında bir haber akışı eklemek için özel bir sayfa oluşturur.",
+	"newsticker-desc": "Özel bir sayfadan yapılandırılabilen bir haber akışı gösteren sihirli bir kelime ekler.",
 	"newsticker-summary": "Haber akışı içeriğini ve sayfalarını ayarlamak için özel sayfa",
 	"newsticker-general": "Genel",
 	"newsticker-news": "Haberler",
@@ -23,7 +23,7 @@
 	"newsticker-add-page": "Sayfa ekle",
 	"newsticker-default-news-help": "Haber akışının varsayılan haberini ayarlayın, her satıra bir tane ekleyin, wiki metin kullanabilirsiniz. Sayfa bazında geçersiz kılınır (aşağıya bakınız).",
 	"newsticker-pages-help": "Haber akışını gösterecek sayfa sayısını ayarlayın, böylece bu özel sayfa her sayfa için bir bölüm gösterebilir. Dikkat: Sayfa sayısını azaltırsanız dışarıda bırakılan sayfaların verileri kaybolur!",
-	"newsticker-title-help": "Haber akışını gösterecek sayfanın başlığını ayarlayın. Herhangi bir sayfa, geçerli ya da geçersiz, hatta özel sayfa da olabilir.",
+	"newsticker-title-help": "Bu haber akışını gösterecek sayfanın başlığını ayarlayın.",
 	"newsticker-news-help": "Bu özel haber akışı için varsayılan haberleri geçersiz kılarak haberleri ayarların",
 	"right-newsticker": "Haber akışını yönet"
 }
