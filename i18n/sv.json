@@ -6,6 +6,8 @@
 	},
 	"newsticker-general": "Allmänt",
 	"newsticker-news": "Nyheter",
+	"newsticker-class": "Klass",
+	"newsticker-style": "Stil",
 	"newsticker-pages": "Sidor",
 	"newsticker-page1": "Sida 1",
 	"newsticker-page2": "Sida 2",
@@ -17,5 +19,6 @@
 	"newsticker-page8": "Sida 8",
 	"newsticker-page9": "Sida 9",
 	"newsticker-title": "Titel",
-	"newsticker-add-page": "Lägg till sida"
+	"newsticker-add-page": "Lägg till sida",
+	"action-newsticker": "hantera nyhetsärenden"
 }
