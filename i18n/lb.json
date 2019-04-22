@@ -21,5 +21,7 @@
 	"newsticker-page9": "Säit 9",
 	"newsticker-title": "Titel",
 	"newsticker-add-page": "Säit dobäisetzen",
-	"newsticker-class-help": "Definéiert d'CSS Klasse fir dësen Newsticker, déi d'$Stnard CSS-Klassen iwwerschreiwen."
+	"newsticker-class-help": "Definéiert d'CSS Klasse fir dësen Newsticker, déi d'$Stnard CSS-Klassen iwwerschreiwen.",
+	"right-newsticker": "Newsticker geréieren",
+	"action-newsticker": "Newstickeren geréieren"
 }
