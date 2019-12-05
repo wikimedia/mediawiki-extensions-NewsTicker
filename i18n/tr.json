@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"newsticker": "HaberAkışı",
@@ -9,6 +10,8 @@
 	"newsticker-summary": "Haber akışı içeriğini ve sayfalarını ayarlamak için özel sayfa",
 	"newsticker-general": "Genel",
 	"newsticker-news": "Haberler",
+	"newsticker-class": "Sınıf",
+	"newsticker-style": "Stil",
 	"newsticker-pages": "Sayfalar",
 	"newsticker-page1": "1. sayfa",
 	"newsticker-page2": "2. sayfa",
@@ -22,8 +25,13 @@
 	"newsticker-title": "Başlık",
 	"newsticker-add-page": "Sayfa ekle",
 	"newsticker-default-news-help": "Haber akışının varsayılan haberini ayarlayın. Her satıra bir tane ekleyin, wiki metin kullanabilirsiniz.",
+	"newsticker-default-class-help": "Tüm haber etiketleri için varsayılan CSS sınıflarını ayarlayın.",
+	"newsticker-default-style-help": "Tüm haber etiketleri için varsayılan CSS stilini ayarlayın.",
 	"newsticker-pages-help": "Haber akışını gösterecek sayfa sayısını ayarlayın, böylece bu özel sayfa her sayfa için bir bölüm gösterebilir. Dikkat! Sayfa sayısını azaltırsanız dışarıda bırakılan sayfaların verileri kaybolur!",
 	"newsticker-title-help": "Bu haber akışını gösterecek sayfanın başlığını ayarlayın.",
 	"newsticker-news-help": "Bu haber akışı için varsayılan haberleri geçersiz kılarak haberleri ayarların",
-	"right-newsticker": "Haber akışını yönet"
+	"newsticker-class-help": "Varsayılan CSS sınıflarını geçersiz kılarak, bu haber için CSS sınıflarını ayarlayın.",
+	"newsticker-style-help": "Varsayılan CSS stilini geçersiz kılarak, bu haber için CSS stilini ayarlayın.",
+	"right-newsticker": "Haber akışını yönet",
+	"action-newsticker": "haber geçişlerini yönet"
 }
