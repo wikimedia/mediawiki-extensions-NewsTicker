@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"newsticker": "NewsTicker",
@@ -27,7 +28,7 @@
 	"newsticker-default-news-help": "Fixer les nouvelles par défaut pour tous les bandeaux de nouvelles. Une nouvelle par ligne, le wikitexte étant autorisé.",
 	"newsticker-default-class-help": "Définir les classes CSS par défaut pour tous les bandeaux de nouvelles.",
 	"newsticker-default-style-help": "Définir le style CSS par défaut pour tous les bandeaux de nouvelles.",
-	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention ! Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
+	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention ! Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
 	"newsticker-title-help": "Fixer le titre de la page où afficher ce bandeau de nouvelles.",
 	"newsticker-news-help": "Fixer les nouvelles pour ce bandeau de nouvelles, écrasant les nouvelles par défaut.",
 	"newsticker-class-help": "Définir les classes CSS pour ce bandeau de nouvelles, écrasant les classes CSS par défaut.",
