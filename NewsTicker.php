@@ -63,7 +63,7 @@ class NewsTicker {
 
 				// Prepare the parser
 				$parserOptions = new ParserOptions;
-				$parser = new Parser;
+				$parser = $parser->getFreshParser();
 
 				// Select random news
 				$current = rand( 0, count( $news ) - 1 );
