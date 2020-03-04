@@ -62,7 +62,7 @@ class NewsTicker {
 				]);
 
 				// Prepare the parser
-				$parserOptions = new ParserOptions;
+				$parserOptions = new ParserOptions( $parser->getUser() );
 				$parser = $parser->getFreshParser();
 
 				// Select random news
