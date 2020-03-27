@@ -21,7 +21,10 @@ class NewsTicker {
 	/**
 	 * Render the news ticker itself
 	 */
-	static function onParserGetVariableValueSwitch( Parser $parser, &$cache, &$magicWordId, &$return, &$frame )  {
+	static function onParserGetVariableValueSwitch( Parser $parser, &$cache, $magicWordId, &$return )  {
+		if ( $magicWordId !== 'NEWSTICKER' ) {
+			return true;
+		}
 		// Get all the relevant data
 		$newsData = [];
 		$newsTitle = Title::newFromText( "News.json", NS_MEDIAWIKI );
@@ -78,6 +81,7 @@ class NewsTicker {
 				$return .= Html::closeElement( 'div' );
 			}
 		}
+		$cache[$magicWordId] = $return;
 		return true;
 	}
 }
