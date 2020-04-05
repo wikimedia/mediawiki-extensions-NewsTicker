@@ -15,8 +15,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"NewsTicker": "NewsTicker.php",
-		"SpecialNewsTicker": "SpecialNewsTicker.php"
+		"NewsTicker": "includes/NewsTicker.php",
+		"SpecialNewsTicker": "includes/specials/SpecialNewsTicker.php"
 	},
 	"SpecialPages": {
 		"NewsTicker": "SpecialNewsTicker"
@@ -27,10 +27,10 @@
 	},
 	"ResourceModules": {
 		"ext.NewsTicker.styles": {
-			"styles": "NewsTicker.css"
+			"styles": "css/NewsTicker.css"
 		},
 		"ext.NewsTicker.scripts": {
-			"scripts": "NewsTicker.js"
+			"scripts": "js/NewsTicker.js"
 		}
 	},
 	"GroupPermissions": {
@@ -42,8 +42,8 @@
 		"newsticker"
 	],
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "NewsTicker"
+		"localBasePath": "resources",
+		"remoteExtPath": "NewsTicker/resources"
 	},
 	"Hooks": {
 		"BeforePageDisplay": "NewsTicker::onBeforePageDisplay",
