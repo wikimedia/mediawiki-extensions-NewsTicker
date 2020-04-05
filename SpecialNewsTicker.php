@@ -17,22 +17,35 @@ class SpecialNewsTicker extends FormSpecialPage {
 		'pages' => 1
 	];
 
+	/**
+	 * @param string $name
+	 * @param string $restriction
+	 * @param bool $listed
+	 */
 	public function __construct( $name = '', $restriction = '', $listed = true ) {
 		parent::__construct( 'NewsTicker', 'newsticker' );
 	}
 
+	/**
+	 * @param params $parameter
+	 */
 	public function execute( $parameter ) {
 		$user = $this->getUser();
 		$this->checkExecutePermissions( $user );
 		parent::execute( $parameter );
 	}
 
+	/**
+	 * @param array $data
+	 * @return bool
+	 */
 	public function onSubmit( array $data ) {
 		$data['news'] = self::validateNews( $data['news'] );
 		$data['pages'] = self::validatePages( $data['pages'] );
 
 		$pages = $data['pages'];
 		for ( $i = 1; $i <= $pages; $i++ ) {
+			// phpcs:ignore Generic.Files.LineLength.TooLong
 			$data["news$i"] = array_key_exists( "news$i", $data ) ? self::validateNews( $data["news$i"] ) : [];
 		}
 
@@ -52,6 +65,8 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Return the HTMLForm descriptor
+	 *
+	 * @return array
 	 */
 	protected function getFormFields() {
 		$options = $this->getOptions();
@@ -66,7 +81,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'label' => wfMessage( 'newsticker-news' ),
 				'help' => wfMessage( 'newsticker-default-news-help' )->text(),
 				'default' => implode( "\n", $this->getOption( 'news' ) ),
-				//'placeholder' => implode( "\n", $this->getOption( 'news' ) ),
+				// 'placeholder' => implode( "\n", $this->getOption( 'news' ) ),
 			],
 			'class' => [
 				'section' => 'general',
@@ -74,7 +89,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'label' => wfMessage( 'newsticker-class' ),
 				'help' => wfMessage( 'newsticker-default-class-help' )->text(),
 				'default' => $this->getOption( 'class' ),
-				//'placeholder' => $this->getOption( 'class' ),
+				// 'placeholder' => $this->getOption( 'class' ),
 			],
 			'style' => [
 				'section' => 'general',
@@ -82,7 +97,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'label' => wfMessage( 'newsticker-style' ),
 				'help' => wfMessage( 'newsticker-default-style-help' )->text(),
 				'default' => $this->getOption( 'style' ),
-				//'placeholder' => $this->getOption( 'style' ),
+				// 'placeholder' => $this->getOption( 'style' ),
 			],
 			'pages' => [
 				'section' => 'general',
@@ -90,7 +105,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 				'label' => wfMessage( 'newsticker-pages' ),
 				'help' => wfMessage( 'newsticker-pages-help' )->text(),
 				'default' => $this->getOption( 'pages' ),
-				//'placeholder' => $this->getOption( 'pages' ),
+				// 'placeholder' => $this->getOption( 'pages' ),
 			]
 		];
 
@@ -134,6 +149,9 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Validate links
+	 *
+	 * @param string $pagenames
+	 * @return string
 	 */
 	public function validateLinks( string $pagenames ) {
 		$links = [];
@@ -149,6 +167,9 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Validate news
+	 *
+	 * @param string $string
+	 * @return string
 	 */
 	public function validateNews( string $string ) {
 		$news = explode( "\n", $string );
@@ -158,6 +179,9 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Validate pages
+	 *
+	 * @param int $int
+	 * @return int
 	 */
 	public function validatePages( int $int ) {
 		return $int;
@@ -167,6 +191,8 @@ class SpecialNewsTicker extends FormSpecialPage {
 	 * Get the configuration options
 	 *
 	 * Only get them once, store them in a static variable and reuse them on subsequent calls
+	 *
+	 * @return array
 	 */
 	static function getOptions() {
 		if ( self::$options ) {
@@ -186,6 +212,11 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Get a configuration option
+	 *
+	 * @param string $key
+	 * @param mixed $default
+	 *
+	 * @return mixed
 	 */
 	static function getOption( $key, $default = '' ) {
 		$options = self::getOptions();
@@ -197,6 +228,8 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Return the display format for the HTMLForm
+	 *
+	 * @return string
 	 */
 	protected function getDisplayFormat() {
 		return 'ooui';

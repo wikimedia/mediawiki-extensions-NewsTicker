@@ -4,14 +4,20 @@ class NewsTicker {
 
 	/**
 	 * Add the NewsTicker resource module
+	 *
+	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
+	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
 		$out->addModuleStyles( 'ext.NewsTicker.styles' );
 		$out->addModules( 'ext.NewsTicker.scripts' );
 	}
 
 	/**
 	 * Register NEWSTICKER as a variable
+	 *
+	 * @param array &$customVariableIds
+	 * @return bool
 	 */
 	public static function onMagicWordwgVariableIDs( &$customVariableIds ) {
 		$customVariableIds[] = 'NEWSTICKER';
@@ -20,8 +26,19 @@ class NewsTicker {
 
 	/**
 	 * Render the news ticker itself
+	 *
+	 * @param Parser $parser
+	 * @param array &$cache
+	 * @param string $magicWordId
+	 * @param string &$return
+	 * @return bool
 	 */
-	static function onParserGetVariableValueSwitch( Parser $parser, &$cache, $magicWordId, &$return )  {
+	public static function onParserGetVariableValueSwitch(
+		Parser $parser,
+		&$cache,
+		$magicWordId,
+		&$return
+	) {
 		if ( $magicWordId !== 'NEWSTICKER' ) {
 			return true;
 		}
@@ -49,7 +66,7 @@ class NewsTicker {
 		for ( $i = 0; $i <= $pages; $i++ ) {
 
 			$title = $newsData["title$i"] ?? null;
-			if ( $title and $title === $thisText ) {
+			if ( $title && $title === $thisText ) {
 
 				$news = $newsData["news$i"] ?? $newsData['news'];
 				$class = $newsData["class$i"] ?? $newsData['class'];
@@ -57,12 +74,12 @@ class NewsTicker {
 
 				$return .= Html::openElement( 'div', [
 					'class' => "news-ticker-wrapper",
-				]);
+				] );
 
 				$return .= Html::openElement( 'div', [
 					'class' => "news-ticker $class",
 					'style' => $style
-				]);
+				] );
 
 				// Prepare the parser
 				$parserOptions = new ParserOptions( $parser->getUser() );
