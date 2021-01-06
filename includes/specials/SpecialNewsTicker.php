@@ -4,13 +4,15 @@ class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
 	 * Configuration options
+	 * @var array
 	 */
-	static $options;
+	private static $options;
 
 	/**
 	 * Default values for the news tickers
+	 * @var array
 	 */
-	static $defaults = [
+	private static $defaults = [
 		'news' => [],
 		'class' => '',
 		'style' => '',
@@ -194,7 +196,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 	 *
 	 * @return array
 	 */
-	static function getOptions() {
+	private static function getOptions() {
 		if ( self::$options ) {
 			return self::$options;
 		}
@@ -218,7 +220,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 	 *
 	 * @return mixed
 	 */
-	static function getOption( $key, $default = '' ) {
+	private static function getOption( $key, $default = '' ) {
 		$options = self::getOptions();
 		if ( array_key_exists( $key, $options ) ) {
 			return $options[ $key ];
