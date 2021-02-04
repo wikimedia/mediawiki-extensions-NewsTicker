@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
+	"newsticker": "NewsTicker",
 	"newsticker-general": "Allmänt",
 	"newsticker-news": "Nyheter",
 	"newsticker-class": "Klass",
