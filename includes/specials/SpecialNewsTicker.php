@@ -78,7 +78,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 			 */
 			'news' => [
 				'section' => 'general',
-				'class' => 'HTMLTextareaField',
+				'class' => 'HTMLTextAreaField',
 				'rows' => count( $options['news'] ),
 				'label' => wfMessage( 'newsticker-news' ),
 				'help' => wfMessage( 'newsticker-default-news-help' )->text(),
@@ -122,7 +122,7 @@ class SpecialNewsTicker extends FormSpecialPage {
 			];
 			$fields[ "news$i" ] = [
 				'section' => "page$i",
-				'class' => 'HTMLTextareaField',
+				'class' => 'HTMLTextAreaField',
 				'rows' => count( $this->getOption( 'news$i', $this->getOption( "news" ) ) ),
 				'label' => wfMessage( 'newsticker-news' ),
 				'help' => wfMessage( 'newsticker-news-help' )->text(),
