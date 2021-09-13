@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Lakejason0",
+			"Tranve",
 			"佛壁灯"
 		]
 	},
@@ -15,5 +16,5 @@
 	"newsticker-page4": "第四页",
 	"newsticker-page8": "第八页",
 	"newsticker-page9": "第九页",
-	"newsticker-default-news-help": "为所有新闻跑马灯设置默认新闻。每行一条新闻，支持维基文本。"
+	"newsticker-default-news-help": "为所有新闻跑马灯设置默认新闻。每行一条新闻，支持wikitext。"
 }
