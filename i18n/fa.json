@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"newsticker-general": "عمومی",
+	"newsticker-news": "اخبار",
+	"newsticker-class": "کلاس",
+	"newsticker-style": "سبک",
+	"newsticker-pages": "صفحه‌ها",
+	"newsticker-page1": "صفحه ۱",
+	"newsticker-page2": "صفحه ۲",
+	"newsticker-page3": "صفحه ۳",
+	"newsticker-page4": "صفحه ۴",
+	"newsticker-page5": "صفحه ۵",
+	"newsticker-page6": "صفحه ۶",
+	"newsticker-page7": "صفحه ۷",
+	"newsticker-page8": "صفحه ۸",
+	"newsticker-page9": "صفحه ۹",
+	"newsticker-title": "عنوان",
+	"newsticker-add-page": "افزودن صفحه"
+}
