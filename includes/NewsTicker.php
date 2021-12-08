@@ -62,6 +62,13 @@ class NewsTicker {
 		// Get the news for this page
 		$pages = $newsData['pages'] ?? 0;
 		$thisTitle = $parser->getTitle();
+		if ( method_exists( $parser, 'getUserIdentity' ) ) {
+			// MW 1.36+
+			$parserUser = MediaWiki\MediaWikiServices::getInstance()
+				->getUserFactory()->newFromUserIdentity( $parser->getUserIdentity() );
+		} else {
+			$parserUser = $parser->getUser();
+		}
 		$thisText = $thisTitle->getFullText();
 		for ( $i = 0; $i <= $pages; $i++ ) {
 
@@ -82,7 +89,7 @@ class NewsTicker {
 				] );
 
 				// Prepare the parser
-				$parserOptions = new ParserOptions( $parser->getUser() );
+				$parserOptions = new ParserOptions( $parserUser );
 				$parser = $parser->getFreshParser();
 
 				// Select random news
