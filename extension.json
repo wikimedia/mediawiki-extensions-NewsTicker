@@ -9,6 +9,9 @@
 	"descriptionmsg": "newsticker-desc",
 	"license-name": "GPL-3.0-or-later",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"NewsTicker": [
 			"i18n"
@@ -50,5 +53,5 @@
 		"MagicWordwgVariableIDs": "NewsTicker::onMagicWordwgVariableIDs",
 		"ParserGetVariableValueSwitch": "NewsTicker::onParserGetVariableValueSwitch"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
