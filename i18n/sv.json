@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "Lägger till ett magiskt ord som visar en nyhetsremsa som kan konfigureras från en specialsida.",
+	"newsticker-summary": "Specialsida för att ställa in nyhetsremsans innehåll och sidor",
 	"newsticker-general": "Allmänt",
 	"newsticker-news": "Nyheter",
 	"newsticker-class": "Klass",
@@ -20,5 +24,14 @@
 	"newsticker-page9": "Sida 9",
 	"newsticker-title": "Titel",
 	"newsticker-add-page": "Lägg till sida",
-	"action-newsticker": "hantera nyhetsärenden"
+	"newsticker-default-news-help": "Ställ in standardnyheter för alla nyhetsremsor. En nyhet per rad, wikitext tillåten.",
+	"newsticker-default-class-help": "Ställ in standard CSS-klasser för alla nyhetsremsor.",
+	"newsticker-default-style-help": "Ställ in standard CSS-stilar för alla nyhetsremsor.",
+	"newsticker-pages-help": "Ställ in antalet sidor som kommer att visa nyhetsremsan så att den här specialsidan kan visa ett avsnitt för varje sida. Varning! Om du minskar antalet sidor kommer data om de sidor som utelämnas att gå förlorade!",
+	"newsticker-title-help": "Ställ in titeln på sidan för att visa den här nyhetsremsan.",
+	"newsticker-news-help": "Ställ in nyheterna för den här nyhetsremsan och åsidosätt standardnyheterna.",
+	"newsticker-class-help": "Ställ in CSS-klasserna för den här nyhetsremsan och åsidosätt standard CSS-klasserna.",
+	"newsticker-style-help": "Ställ in CSS-stilen för den här nyhetsremsan och åsidosätt standard CSS-stilen.",
+	"right-newsticker": "Hantera nyhetsremsa",
+	"action-newsticker": "hantera nyhetsremsa"
 }
