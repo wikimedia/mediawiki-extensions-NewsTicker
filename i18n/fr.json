@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Thibaut120094",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"newsticker": "NewsTicker",
@@ -25,7 +26,7 @@
 	"newsticker-page9": "Page 9",
 	"newsticker-title": "Titre",
 	"newsticker-add-page": "Ajouter une page",
-	"newsticker-default-news-help": "Fixer les nouvelles par défaut pour tous les bandeaux de nouvelles. Une nouvelle par ligne, le wikitexte étant autorisé.",
+	"newsticker-default-news-help": "Fixer les actualités par défaut pour tous les bandeaux d’actualités. Une actualité par ligne, où le wikicode est autorisé.",
 	"newsticker-default-class-help": "Définir les classes CSS par défaut pour tous les bandeaux de nouvelles.",
 	"newsticker-default-style-help": "Définir le style CSS par défaut pour tous les bandeaux de nouvelles.",
 	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention ! Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
