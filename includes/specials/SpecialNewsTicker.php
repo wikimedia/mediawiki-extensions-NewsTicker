@@ -58,7 +58,12 @@ class SpecialNewsTicker extends FormSpecialPage {
 		$page = new WikiPage( $title );
 		$content = ContentHandler::makeContent( $json, $title );
 		$summary = "";
-		$status = $page->doEditContent( $content, $summary );
+		if ( method_exists( $page, 'doUserEditContent' ) ) {
+			// MW 1.36+
+			$status = $page->doUserEditContent( $content, $this->getUser(), $summary );
+		} else {
+			$status = $page->doEditContent( $content, $summary );
+		}
 
 		// Reload the page or the form won't update correctly
 		header( "Refresh:0" );
