@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialNewsTicker extends FormSpecialPage {
 
 	/**
@@ -55,7 +57,12 @@ class SpecialNewsTicker extends FormSpecialPage {
 		$data = array_filter( $data );
 		$json = json_encode( $data );
 		$title = Title::newFromText( "News.json", NS_MEDIAWIKI );
-		$page = new WikiPage( $title );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		} else {
+			$page = new WikiPage( $title );
+		}
 		$content = ContentHandler::makeContent( $json, $title );
 		$summary = "";
 		if ( method_exists( $page, 'doUserEditContent' ) ) {
@@ -206,7 +213,12 @@ class SpecialNewsTicker extends FormSpecialPage {
 			return self::$options;
 		}
 		$title = Title::newFromText( "News.json", NS_MEDIAWIKI );
-		$page = new WikiPage( $title );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		} else {
+			$page = new WikiPage( $title );
+		}
 		$content = $page->getContent();
 		if ( $content ) {
 			$data = $content->getJsonData();

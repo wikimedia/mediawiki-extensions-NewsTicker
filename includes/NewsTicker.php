@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class NewsTicker {
 
 	/**
@@ -45,7 +47,12 @@ class NewsTicker {
 		// Get all the relevant data
 		$newsData = [];
 		$newsTitle = Title::newFromText( "News.json", NS_MEDIAWIKI );
-		$newsPage = new WikiPage( $newsTitle );
+		if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+			// MW 1.36+
+			$newsPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $newsTitle );
+		} else {
+			$newsPage = new WikiPage( $newsTitle );
+		}
 		$newsContent = $newsPage->getContent();
 		if ( $newsContent ) {
 			$newsData = $newsContent->getJsonData();
