@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"newsticker": "Diffusor de novas",
+	"newsticker-desc": "Adde un parola magic que monstra un diffusor de novas que pote esser configurate a partir de un pagina special.",
+	"newsticker-summary": "Pagina special pro definir le contento e le paginas del diffusor de novas",
+	"newsticker-general": "General",
+	"newsticker-news": "Novas",
+	"newsticker-class": "Classe",
+	"newsticker-style": "Stilo",
+	"newsticker-pages": "Paginas",
+	"newsticker-page1": "Pagina 1",
+	"newsticker-page2": "Pagina 2",
+	"newsticker-page3": "Pagina 3",
+	"newsticker-page4": "Pagina 4",
+	"newsticker-page5": "Pagina 5",
+	"newsticker-page6": "Pagina 6",
+	"newsticker-page7": "Pagina 7",
+	"newsticker-page8": "Pagina 8",
+	"newsticker-page9": "Pagina 9",
+	"newsticker-title": "Titulo",
+	"newsticker-add-page": "Adder pagina",
+	"newsticker-default-news-help": "Definir le novas predefinite pro tote le diffusores de novas. Un articulo per linea, wikitexto permittite.",
+	"newsticker-default-class-help": "Definir le classes CSS predefinite pro tote le diffusores de novas.",
+	"newsticker-default-style-help": "Definir le stilo CSS predefinite pro tote le diffusores de novas.",
+	"newsticker-pages-help": "Definir le numero de paginas que monstrara le diffusor de novas, de maniera que iste pagina special pote monstrar un section pro cata pagina. Attention! Si tu reduce le numero de paginas, le datos del paginas omittite essera perdite!",
+	"newsticker-title-help": "Definir le titulo del pagina ubi monstrar iste diffusor de novas.",
+	"newsticker-news-help": "Definir le novas pro iste diffusor de novas, substituente le novas predefinite.",
+	"newsticker-class-help": "Definir le classes CSS pro iste diffusor de novas, substituente le classes CSS predefinite.",
+	"newsticker-style-help": "Definir le stilo CSS pro iste diffusor de novas, substituente le stilo CSS predefinite.",
+	"right-newsticker": "Gerer diffusores de novas",
+	"action-newsticker": "gerer diffusores de novas"
+}
