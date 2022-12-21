@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"newsticker-general": "Opšte",
+	"newsticker-news": "Vesti",
+	"newsticker-pages": "Stranice",
+	"newsticker-page1": "Stranica 1",
+	"newsticker-page2": "Stranica 2",
+	"newsticker-page3": "Stranica 3",
+	"newsticker-page4": "Stranica 4",
+	"newsticker-page5": "Stranica 5",
+	"newsticker-page6": "Stranica 6",
+	"newsticker-page7": "Stranica 7",
+	"newsticker-page8": "Stranica 8",
+	"newsticker-page9": "Stranica 9",
+	"newsticker-title": "Naslov",
+	"newsticker-add-page": "Dodaj stranicu"
+}
