@@ -1,8 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"שוקו מוקה"
 		]
 	},
-	"newsticker-title": "כותרת"
+	"newsticker-page1": "דף 1",
+	"newsticker-page2": "דף 2",
+	"newsticker-page3": "דף 3",
+	"newsticker-page4": "דף 4",
+	"newsticker-page5": "דף 5",
+	"newsticker-page6": "דף 6",
+	"newsticker-page7": "דף 7",
+	"newsticker-page8": "דף 8",
+	"newsticker-page9": "דף 9",
+	"newsticker-title": "כותרת",
+	"newsticker-add-page": "הוספת דף"
 }
