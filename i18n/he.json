@@ -5,6 +5,14 @@
 			"שוקו מוקה"
 		]
 	},
+	"newsticker": "שורה רצה של חדשות",
+	"newsticker-desc": "הוספת מילת קסם המציגה שורה רצה של חדשות שניתן להגדיר מדף מיוחד.",
+	"newsticker-summary": "דף מיוחד להגדרת התוכן והדפים של שורה רצה של החדשות",
+	"newsticker-general": "כללי",
+	"newsticker-news": "חדשות",
+	"newsticker-class": "מחלקה",
+	"newsticker-style": "סגנון",
+	"newsticker-pages": "דפים",
 	"newsticker-page1": "דף 1",
 	"newsticker-page2": "דף 2",
 	"newsticker-page3": "דף 3",
@@ -15,5 +23,15 @@
 	"newsticker-page8": "דף 8",
 	"newsticker-page9": "דף 9",
 	"newsticker-title": "כותרת",
-	"newsticker-add-page": "הוספת דף"
+	"newsticker-add-page": "הוספת דף",
+	"newsticker-default-news-help": "הגדרת החדשות שהן ברירת מחדל עבור כל השורות הרצות. ידיעה אחת בשורה, מותר לכתוב קוד ויקי.",
+	"newsticker-default-class-help": "הגדרת מחלקות ה־CSS שהן ברירת מחדל עבור כל השורות הרצות.",
+	"newsticker-default-style-help": "הגדרת סגנון ברירת המחדל של CSS עבור כל השרורות הרצות.",
+	"newsticker-pages-help": "הגדרת מספר הדפים שיציגו את השורה הרצה, כך שהדף המיוחד הזה יוכל להציג קטע אחד עבור כל עמוד. זְהִירוּת! הקטנת מספר הדפים תגרום לנתוני הדפים שנותרו ללכת לאיבוד!",
+	"newsticker-title-help": "הגדרת כותרת הדף להצגת השורה הרצה הזאת.",
+	"newsticker-news-help": "הגדרת החדשות עבור השורה הרצה הזאת, עם עקיפת הדשות המוגדרות כברירת מחדל.",
+	"newsticker-class-help": "הגדרת מחלקות ה־CSS עבור השורה הרצה הזאת, תוך עקיפת מחלקות ברירת המחדל.",
+	"newsticker-style-help": "הגדרת סגנון ה־CSS עבור השורה הרצה הזאת, תוך עקיפת סגנון ברירת המחדל.",
+	"right-newsticker": "ניהול שורות רצות של חדשות",
+	"action-newsticker": "לנהל שורות רצות של חדשות"
 }
