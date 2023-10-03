@@ -77,6 +77,12 @@ class NewsTicker {
 			$parserUser = $parser->getUser();
 		}
 		$thisText = $thisTitle->getFullText();
+		if ( method_exists( ParserFactory::class, 'getInstance' ) ) {
+			// MW 1.39+
+			$localParser = MediaWikiServices::getInstance()->getParserFactory()->getInstance();
+		} else {
+			$localParser = $parser->getFreshParser();
+		}
 		for ( $i = 0; $i <= $pages; $i++ ) {
 
 			$title = $newsData["title$i"] ?? null;
@@ -97,13 +103,12 @@ class NewsTicker {
 
 				// Prepare the parser
 				$parserOptions = new ParserOptions( $parserUser );
-				$parser = $parser->getFreshParser();
 
 				// Select random news
 				$current = rand( 0, count( $news ) - 1 );
 				foreach ( $news as $i => $value ) {
 					$class = $current === $i ? 'news initial current' : 'news';
-					$parserOutput = $parser->parse( $value, $thisTitle, $parserOptions );
+					$parserOutput = $localParser->parse( $value, $thisTitle, $parserOptions );
 					$value = $parserOutput->getText();
 					$return .= Html::rawElement( 'div', [ 'class' => $class ], $value );
 				}
