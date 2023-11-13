@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Romaine"
 		]
 	},
+	"newsticker": "Newsticker",
+	"newsticker-desc": "Voegt een magisch woord toe dat een newsticker laat zien die kan worden ingesteld vanaf een speciale pagina.",
+	"newsticker-summary": "Speciale pagina voor het instellen van de inhoud en de pagina’s van de newsticker",
 	"newsticker-general": "Algemeen",
 	"newsticker-news": "Nieuws",
+	"newsticker-class": "Klasse",
+	"newsticker-style": "Stijl",
 	"newsticker-pages": "pagina's",
 	"newsticker-page1": "Pagina 1",
 	"newsticker-page2": "Pagina 2",
@@ -17,5 +23,15 @@
 	"newsticker-page8": "Pagina 8",
 	"newsticker-page9": "Pagina 9",
 	"newsticker-title": "Titel",
-	"newsticker-add-page": "Pagina toevoegen"
+	"newsticker-add-page": "Pagina toevoegen",
+	"newsticker-default-news-help": "Stel het standaardnieuws in voor alle newstickers. Eén nieuwsbericht per regel, wikitekst toegestaan.",
+	"newsticker-default-class-help": "Stel de standaard CSS-klassen in voor alle newstickers.",
+	"newsticker-default-style-help": "Stel de standaard CSS-stijl in voor alle newstickers.",
+	"newsticker-pages-help": "Stel het aantal pagina’s in waarop de nieuwsticker wordt weergegeven, zodat deze speciale pagina voor elke pagina één sectie kan weergeven. Voorzichtig! Als u het aantal pagina’s vermindert, gaan de gegevens van de weggelaten pagina’s verloren!",
+	"newsticker-title-help": "Stel de titel van de pagina in waar deze newsticker moet worden weergegeven.",
+	"newsticker-news-help": "Stel het nieuws voor deze newsticker in, waarbij het standaardnieuws wordt overschreven.",
+	"newsticker-class-help": "Stel de CSS-klassen voor deze newsticker in, waarbij de standaard CSS-klassen worden overschreven.",
+	"newsticker-style-help": "Stel de CSS-stijl voor deze newsticker in, waarbij de standaard CSS-stijl wordt overschreven.",
+	"right-newsticker": "Newstickers beheren",
+	"action-newsticker": "newstickers te beheren"
 }
